@@ -74,7 +74,7 @@ import axios from "axios"
                                     <Button  type="submit" onClick={handleSubmit} >Change </Button>
                                 </div>
                             </form>
-                            <Link  to="/register" className="ac link" ><h5 className="text-dark">{info}</h5></Link>
+                            <Link  to="/login" className="ac link" ><h5 className="text-dark">{info}</h5></Link>
                         </Card.Body>
                         </Card>
         </div>
